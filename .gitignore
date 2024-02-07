@@ -5,7 +5,4 @@ dist
 index.html
 .remote-assets
 components.d.ts
-/.idea/misc.xml
-/.idea/modules.xml
-/.idea/sa-fundamentals.iml
-/.idea/vcs.xml
+/.idea/
