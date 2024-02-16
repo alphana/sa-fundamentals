@@ -30,13 +30,13 @@ jobs:
         run: npm install
 
       - name: Build
-        run: npm run build -- --base /sa-fundamentals/
+        run: cd isaqb-slidev-1 && npm run build -- --base /sa-fundamentals/
 
       - uses: actions/configure-pages@v4
 
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: dist
+          path: isaqb-slidev-1/dist
 
       - name: Deploy
         id: deployment
